@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: gittuf
+description: A security layer for Git repositories.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://gittuf.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+nav_external_links:
+  - title: gittuf on GitHub
+    url: https://github.com/adityasaky/gittuf
+    hide_icon: false
