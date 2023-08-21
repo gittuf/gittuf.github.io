@@ -11,3 +11,6 @@ nav_external_links:
   - title: Demo
     url: https://github.com/gittuf/demo
     hide_icon: false
+  - title: Roadmap
+    url: https://github.com/adityasaky/gittuf/blob/main/docs/roadmap.md
+    hide_icon: false
