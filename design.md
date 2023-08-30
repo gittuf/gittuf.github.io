@@ -72,6 +72,6 @@ gittuf-specific namespace. These artifacts are not visible in the "main"
 contents of a repository, and therefore do not create any clutter.
 
 
-[design document]: https://github.com/adityasaky/gittuf/blob/main/docs/specification.md
+[design document]: https://github.com/gittuf/gittuf/blob/main/docs/specification.md
 [Sigstore]: https://sigstore.dev
 [gitsign]: https://github.com/sigstore/gitsign

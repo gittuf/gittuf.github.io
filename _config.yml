@@ -5,12 +5,12 @@ theme: just-the-docs
 url: https://gittuf.github.io
 
 nav_external_links:
-  - title: gittuf on GitHub
-    url: https://github.com/adityasaky/gittuf
+  - title: Repository
+    url: https://github.com/gittuf/gittuf
     hide_icon: false
   - title: Demo
     url: https://github.com/gittuf/demo
     hide_icon: false
   - title: Roadmap
-    url: https://github.com/adityasaky/gittuf/blob/main/docs/roadmap.md
+    url: https://github.com/gittuf/gittuf/blob/main/docs/roadmap.md
     hide_icon: false
