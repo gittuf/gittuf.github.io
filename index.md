@@ -27,7 +27,7 @@ using [Sigstore], using the release workflow's identity. Please use release
 v0.1.0 or higher, as prior releases were created to test the release workflow.
 Alternatively, gittuf can also be installed using `go install`.
 
-To build from source, clone the repository and run `make``. This will also run
+To build from source, clone the repository and run `make`. This will also run
 the test suite prior to installing gittuf. Note that Go 1.21 or higher is
 necessary to build gittuf.
 
