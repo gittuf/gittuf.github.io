@@ -1,3 +1,3 @@
-# gittuf.github.io
+# gittuf.dev
 
-The website for gittuf.
+The website for gittuf. See: [https://gittuf.dev/](https://gittuf.dev/).

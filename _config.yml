@@ -2,7 +2,7 @@ title: gittuf
 description: A security layer for Git repositories.
 theme: just-the-docs
 
-url: https://gittuf.github.io
+url: https://gittuf.dev
 
 nav_external_links:
   - title: Repository
