@@ -9,6 +9,15 @@ rapidly changing. A more detailed user guide will be published here when gittuf
 reaches beta. For now, this guide presents the workflow for using gittuf's alpha
 releases.
 
+## Prerequisites
+
+Before using gittuf, we suggest having a valid signing key specified in your
+Git configuration (i.e. `git config --local user.signingkey`). See the
+[Git manual](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+as well as [gitsign](https://gitsign.dev) for more information. Note that
+having a valid signing key is required for any gittuf operations that write
+changes to the repository.
+
 ## Root of Trust
 
 First, it is necessary to establish the
@@ -32,7 +41,9 @@ After a policy file is established, it may be updated with specific rules,
 setting constraints on one or more namespaces. Specifically, `gittuf policy
 add-rule` can be used to add a rule to the specified policy file, while its
 companion `gittuf policy remove-rule` can be used to remove a previously
-declared constraint.
+declared constraint. Policies can protect files (by specifying `file:` in the
+rule pattern, such as `file:README.md`) as well as Git refs (such as
+`git:refs/heads/main`).
 
 ## Reference State Log
 
@@ -41,7 +52,9 @@ gittuf implements an authenticated
 that tracks changes to the different Git references (eg. branches, tags) in a
 repository. Currently, when a change is made to some reference, it must be
 recorded in the RSL using `gittuf rsl record`. An RSL annotation entry can be
-created using `gittuf rsl annotate`.
+created using `gittuf rsl annotate`. Note that manually recording changes in
+the RSL is not required when you update the policy, as the RSL records changes
+to the policy namespace automatically.
 
 ## Verification
 
@@ -49,7 +62,12 @@ gittuf supports various types of verification workflows. First, gittuf allows
 users to verify policy conformance for a Git reference. This can be invoked
 using `gittuf verify-ref`. In addition, gittuf also provides equivalents to
 Git's `verify-commit` and `verify-tag`. These gittuf equivalents use the trusted
-keys in gittuf policies to verify commit and tag signatures.
+keys in gittuf policies to verify commit and tag signatures. Here are some
+examples on how to verify:
+
+- `gittuf verify-ref -f main` will verify the `main` branch.
+
+- `gittuf verify-commit HEAD` will verify the commit at `HEAD`.
 
 ## Syncing gittuf Namespaces
 
