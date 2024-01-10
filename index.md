@@ -4,6 +4,8 @@ layout: home
 nav_order: 1
 ---
 
+![gittuf logo](https://raw.githubusercontent.com/gittuf/community/bd8b367fa91fab0fddaa1943e0131e90e04e6b10/artwork/PNG/gittuf_horizontal-color.png)
+
 gittuf provides a security layer for Git using some concepts introduced by [The
 Update Framework (TUF)]. Among other features, gittuf handles key management for
 all developers on the repository, allows you to set permissions for repository
