@@ -21,28 +21,13 @@ as part of the [Supply Chain Integrity Working Group].
 gittuf is currently in alpha. Please do not use it in a production system or
 repository.
 
-## Installation
+## Installation & Get Started
 
-The [gittuf repository] provides pre-built binaries that are signed and
-published using [GoReleaser]. The signature for these binaries are generated
-using [Sigstore], using the release workflow's identity. Please use release
-v0.1.0 or higher, as prior releases were created to test the release workflow.
-Alternatively, gittuf can also be installed using `go install`.
-
-To build from source, clone the repository and run `make`. This will also run
-the test suite prior to installing gittuf. Note that Go 1.21 or higher is
-necessary to build gittuf.
-
-```bash
-$ git clone https://github.com/gittuf/gittuf
-$ cd gittuf
-$ make
-```
+See the [get started guide] in the [gittuf repository].
 
 [The Update Framework (TUF)]: https://theupdateframework.io
 [other attacks]: https://ssl.engineering.nyu.edu/papers/torres_toto_usenixsec-2016.pdf
 [Open Source Security Foundation (OpenSSF)]: https://openssf.org/
 [Supply Chain Integrity Working Group]: https://github.com/ossf/wg-supply-chain-integrity
 [gittuf repository]: https://github.com/gittuf/gittuf
-[GoReleaser]: https://goreleaser.com/
-[Sigstore]: https://www.sigstore.dev/
+[get started guide]: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md

@@ -11,6 +11,9 @@ nav_external_links:
   - title: Demo
     url: https://github.com/gittuf/demo
     hide_icon: false
+  - title: Installation & Get Started
+    url: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md
+    hide_icon: false
   - title: Roadmap
     url: https://github.com/gittuf/gittuf/blob/main/docs/roadmap.md
     hide_icon: false
