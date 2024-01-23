@@ -32,4 +32,4 @@ workflows. Please file an issue on the [gittuf repository] to get started!
 [code of conduct]: https://github.com/gittuf/community/blob/main/CODE-OF-CONDUCT.md
 [contributing guide]: https://github.com/gittuf/gittuf/blob/main/CONTRIBUTING.md
 [gittuf repository]: https://github.com/gittuf/gittuf
-[design document]: https://github.com/gittuf/gittuf/blob/main/docs/specification.md
+[design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
