@@ -17,7 +17,7 @@ nav_order: 4
 
 - [Rethinking Trust in Forge-Based Git
   Security](https://www.ndss-symposium.org/wp-content/uploads/2025-1008-paper.pdf),
-  a peer-reviewed paper on gittuf published at NDSS Symposium 2024
+  a peer-reviewed paper on gittuf published at NDSS Symposium 2025
 - [Securing Git Repositories with gittuf](https://lwn.net/Articles/972467/), an
   article about gittuf in LWN.net
 - [On Omitting Commits and Committing Omissions: Preventing Git Metadata
