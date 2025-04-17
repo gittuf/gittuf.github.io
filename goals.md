@@ -12,12 +12,12 @@ can be found in the living [design document].
 
 A primary goal for gittuf is to enable independent verification of a
 repository's security policies. Today, repository security is typically left to
-the source control platform (SCP). While SCPs provide valuable security features
-(many of which we use in developing gittuf!), they serve as a single point of
-trust in the software supply chain, as the platform is the only entity capable
-of setting and enforcing a repository's policies. A compromised SCP or Git
-server can allow attackers to push malicious changes, bypassing the configured
-security controls.
+source control platforms (SCPs) like GitHub, GitLab, Bitbucket, etc. While SCPs
+provide valuable security features (many of which we use in developing gittuf!),
+they serve as a single point of trust in the software supply chain, as the
+platform is the only entity capable of setting and enforcing a repository's
+policies. A compromised SCP or Git server can allow attackers to push malicious
+changes, bypassing the configured security controls.
 
 **How does gittuf accomplish this goal?** gittuf policy metadata is stored in
 the repository. gittuf also uses public key cryptography to authenticate
