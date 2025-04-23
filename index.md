@@ -64,6 +64,7 @@ gittuf is developed by a combination of academic and industry security
 researchers, and has been [peer-reviewed]. To cite gittuf, use:
 
 ```
+{% raw %}
 @inproceedings{yelgundhalli2025,
     author = {Aditya Sirish A Yelgundhalli and Patrick Zielinski and Reza Curtmola and Justin Cappos},
     title = {{Rethinking Trust in Forge-Based Git Security}},
@@ -74,6 +75,7 @@ researchers, and has been [peer-reviewed]. To cite gittuf, use:
     url = {https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/},
     publisher = {{Internet Society}},
 }
+{% endraw %}
 ```
 
 [Open Source Security Foundation (OpenSSF)]: https://openssf.org/
