@@ -63,7 +63,7 @@ See the [get started guide] in the [gittuf repository].
 gittuf is developed by a combination of academic and industry security
 researchers, and has been [peer-reviewed]. To cite gittuf, use:
 
-```
+```bibtex
 {% raw %}
 @inproceedings{yelgundhalli2025,
     author = {Aditya Sirish A Yelgundhalli and Patrick Zielinski and Reza Curtmola and Justin Cappos},
