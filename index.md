@@ -47,12 +47,14 @@ Some of gittuf's features are:
 
 ## Current Status
 
-gittuf is currently in alpha. It is not yet intended for use in a production
-system or repository. We're now actively working on making gittuf more usable so
-it has lesser impact on developer workflows. Contributions are welcome, please
-refer to the [contributing guide]. Some of the features listed above are being
-actively developed, please refer to the [roadmap] and the repository's issue
-tracker for more details.
+gittuf is currently in beta. gittuf's metadata is versioned, and updates should
+not require reinitializing a repository's gittuf policy. We recommend trying out
+gittuf in addition to existing repository security mechanisms you may already be
+using (e.g., forge security policies). We're now actively working on making
+gittuf more usable so it has lesser impact on developer workflows. Contributions
+are welcome, please refer to the [contributing guide]. Some of the features
+listed above are being actively developed, please refer to the [roadmap] and the
+repository's issue tracker for more details.
 
 ## Installation & Get Started
 
