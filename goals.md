@@ -1,8 +1,11 @@
 ---
-title: Goals
+title: Goals and Design 
 layout: default
-nav_order: 2
+nav_order: 5
+permalink: /goals
 ---
+
+# Goals and Design
 
 In building gittuf, we have several specific goals that determine specific
 design decisions. A detailed description of how gittuf accomplishes these goals
@@ -73,6 +76,7 @@ metadata using native Git semantics like its object store and references. This
 allows gittuf to be used with any standard Git repository, including existing
 repositories! gittuf also supports a variety of signing mechanisms such as GPG,
 SSH keys, and [Sigstore] [gitsign].
+
 
 [design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
 [Sigstore]: https://sigstore.dev

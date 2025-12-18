@@ -2,6 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
+permalink: /
 ---
 
 ![gittuf logo](https://raw.githubusercontent.com/gittuf/community/bd8b367fa91fab0fddaa1943e0131e90e04e6b10/artwork/PNG/gittuf_horizontal-color.png)
@@ -16,6 +17,16 @@ forge as a single point of trust in the software supply chain!
 
 gittuf is an incubating project at the [Open Source Security Foundation
 (OpenSSF)] as part of the [Supply Chain Integrity Working Group].
+
+## Installation & Get Started
+
+If you want the TL;DR for getting set up with gittuf, use the Quickstart Guide:
+
+[Quickstart Guide](/quickstart/){: .btn .btn-green }
+
+If you prefer to read a bit as you're setting up gittuf, start with the Documentation:
+
+[Documentation](/documentation/){: .btn .btn-blue }
 
 ## Features
 
@@ -56,10 +67,6 @@ are welcome, please refer to the [contributing guide]. Some of the features
 listed above are being actively developed, please refer to the [roadmap] and the
 repository's issue tracker for more details.
 
-## Installation & Get Started
-
-See the [get started guide] in the [gittuf repository].
-
 ## Note for Academic Researchers
 
 gittuf is developed by a combination of academic and industry security
@@ -82,8 +89,7 @@ researchers, and has been [peer-reviewed]. To cite gittuf, use:
 
 [Open Source Security Foundation (OpenSSF)]: https://openssf.org/
 [Supply Chain Integrity Working Group]: https://github.com/ossf/wg-supply-chain-integrity
-[gittuf repository]: https://github.com/gittuf/gittuf
-[get started guide]: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md
+[get started guide]: /documentation/get-started/getting-started
 [roadmap]: https://github.com/gittuf/gittuf/blob/main/docs/roadmap.md
 [contributing guide]: https://github.com/gittuf/gittuf/blob/main/CONTRIBUTING.md
 [peer-reviewed]: https://www.ndss-symposium.org/wp-content/uploads/2025-1008-paper.pdf
