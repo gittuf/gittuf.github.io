@@ -4,18 +4,26 @@ theme: just-the-docs
 
 url: https://gittuf.dev
 
+callouts:
+  warning:
+    title: Warning
+    color: red
+  heads-up:
+    title: Heads Up!
+    color: yellow
+  info:
+    title: info
+    color: blue
+  experimental:
+    title: Experimental Feature
+    color: green
+
 nav_external_links:
   - title: Repository
     url: https://github.com/gittuf/gittuf
     hide_icon: false
   - title: Demo
     url: https://github.com/gittuf/demo
-    hide_icon: false
-  - title: Installation & Get Started
-    url: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md
-    hide_icon: false
-  - title: Design
-    url: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
     hide_icon: false
   - title: Roadmap
     url: https://github.com/gittuf/gittuf/blob/main/docs/roadmap.md
