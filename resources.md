@@ -1,11 +1,16 @@
 ---
 title: External Resources
 layout: default
-nav_order: 5
+nav_order: 6
+permalink: /resources
 ---
 
 ## Watch
 
+- [The State of Git Security with SLSA and gittuf](https://youtu.be/qA5WM6_bF0Y)
+  at Open Source SecurityCon, KubeCon + CloudNativeCon (North America) 2025
+- [Rethinking Trust in Forge-Based Git Security](https://youtu.be/FA1gEAKJAR0)
+  at NDSS 2025
 - [Securing Git Repositories with gittuf](https://youtu.be/5bWpeZNK00Q) at
   GitMerge 2024
 - [Securing Git Repositories with gittuf](https://youtu.be/eCSeIEdMbCw) at Open

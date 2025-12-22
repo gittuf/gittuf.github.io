@@ -1,3 +1,24 @@
 # gittuf.dev
 
-The website for gittuf. See: [https://gittuf.dev/](https://gittuf.dev/).
+The website and documentation for gittuf. See:
+[https://gittuf.dev/](https://gittuf.dev/).
+
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](/CONTRIBUTING.md).
+
+## Building and previewing changes to the site locally
+
+Assuming [Jekyll] and [Bundler] are installed on your computer:
+
+1.  Change your working directory to the root directory of your site.
+
+2.  Run `bundle install`.
+
+3.  Run `bundle exec jekyll serve` to build your site and preview it at
+    `localhost:4000`.
+
+    The built site is stored in the directory `_site`.
+
+[Jekyll]: https://jekyllrb.com/
+[Bundler]: https://bundler.io/
