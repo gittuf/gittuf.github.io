@@ -1,7 +1,8 @@
 ---
-title: Contribute
+title: Contribute to gittuf
 layout: default
-nav_order: 3
+nav_order: 4
+permalink: /contribute
 ---
 
 There are a number of ways to contribute to gittuf's development. Please note
@@ -12,6 +13,12 @@ that contributors to gittuf are expected to abide by the [code of conduct].
 gittuf is being actively developed and many of its features need more work. Come
 help us out! To get started, take a look at the [contributing guide] on the
 [gittuf repository].
+
+## Website and Documentation
+
+If you enjoy writing documentation, we'd love any help we can get with making
+the gittuf website and docs even better. See the [contributing guide for
+gittuf.dev].
 
 ## Design
 
@@ -31,5 +38,6 @@ workflows. Please file an issue on the [gittuf repository] to get started!
 
 [code of conduct]: https://github.com/gittuf/community/blob/main/CODE-OF-CONDUCT.md
 [contributing guide]: https://github.com/gittuf/gittuf/blob/main/CONTRIBUTING.md
+[contributing guide for gittuf.dev]: https://github.com/gittuf/gittuf.github.io/blob/main/CONTRIBUTING.md
 [gittuf repository]: https://github.com/gittuf/gittuf
 [design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
