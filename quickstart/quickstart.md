@@ -15,17 +15,6 @@ Welcome! This guide will get you up and running with gittuf.
 First, you need to install gittuf. Run the appropriate commands for your OS, or
 [install from source] if you prefer.
 
-### Justin
-
-Install and build gittuf from source as follows:
-
-```
-git clone https://github.com/gittuf/gittuf
-cd gittuf
-git switch get-started-express
-make just-install
-```
-
 ### Windows
 
 Install gittuf from Winget:
@@ -66,12 +55,14 @@ sure to download both `gittuf` and `git-remote-gittuf`.
 The instructions from here on out are different depending on how you need to use
 gittuf. If you're a user that:
 
-- wants to verify a repository against its own gittuf policy, you're a **consumer**.
-- is contributing changes to a Git repository with gittuf enabled, you're a **contributor**.
+- wants to verify a repository against its own gittuf policy, you're a
+  **consumer**.
+- is contributing changes to a Git repository with gittuf enabled, you're a
+  **contributor**.
 - is setting up or managing gittuf on a Git repository, you're a **maintainer**.
 
-If you're a consumer, click the button below. Otherwise, continue to the section below
-on Signing Commits.
+If you're a consumer, click the button below. Otherwise, continue to the section
+below on Signing Commits.
 
 [I'm a Consumer](/quickstart/consumer){: .btn .btn-green }
 

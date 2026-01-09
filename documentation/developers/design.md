@@ -77,3 +77,5 @@ metadata using native Git semantics like its object store and references. This
 allows gittuf to be used with any standard Git repository, including existing
 repositories! gittuf also supports a variety of signing mechanisms such as GPG,
 SSH keys, and [Sigstore] [gitsign].
+
+[design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
