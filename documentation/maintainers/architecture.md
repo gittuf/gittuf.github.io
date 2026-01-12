@@ -9,13 +9,16 @@ permalink: /documentation/maintainers/design/
 ## Trust Architecture
 
 gittuf's metadata is based on (but not a copy of) [The Update Framework] (TUF).
-**Even if you have experience with TUF, we suggest you still read through to
-understand how gittuf manages trust.**
+
+{: .info}
+
+> Even if you have experience with TUF, we suggest you still read through to
+> understand how gittuf manages trust.
 
 In many Git security systems today, compromising a single user with elevated
 privilege leads to a total compromise of the repository at that user's level. If
-the user has the highest level of privilege (e.g. an administrator), this leads
-to an effective "game over" for the repository.
+the user has the highest level of privilege (e.g. an administrator), this may
+lead to catastrophic consequences for the repository.
 
 To combat this, gittuf uses two features from TUF that serve as a check on any
 single user's power: **thresholding** and **delegations**.

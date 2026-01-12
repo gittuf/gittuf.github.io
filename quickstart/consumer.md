@@ -10,19 +10,19 @@ permalink: /quickstart/consumer
 
 To verify a repository that uses gittuf, you need to first ensure that its
 gittuf metadata is available on disk. After you have cloned the repository with
-`git clone`, run gittuf in the repository's directory to synchronize its
-metadata:
+`git clone`, change your working directory to the repository, and run gittuf to
+synchronize its metadata:
 
 ```
 gittuf sync
 ```
 
-Now, determine the branch you would like to verify. Oftentimes, a gittuf policy
-will protect the default (e.g. `main`/`master`) branch of a repository. When
-you have the branch name, run:
+Now, determine the branch or tag you would like to verify. Oftentimes, a gittuf
+policy will protect the default (e.g. `main`/`master`) branch of a repository or
+release tags, (e.g. `v0.12.0`). When you have the branch or tag name, run:
 
 ```
-gittuf verify-ref <branch name>
+gittuf verify-ref <branch or tag name>
 ```
 
 gittuf will verify that all changes made to the repository have been made in
@@ -32,7 +32,7 @@ you are sure you have run the above commands properly, you may wish to contact
 the repository's maintainers to check the security status of the repository.
 
 If nothing is printed out to the console, then gittuf has successfully verified
-the repository against its gittuf policy.
+the commits on the branch or tag against the repository's gittuf policy.
 
 ## Next Steps
 

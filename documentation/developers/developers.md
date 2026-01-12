@@ -4,7 +4,6 @@ parent: Documentation
 layout: default
 nav_order: 5
 permalink: /documentation/developers
-has_toc: no
 ---
 
 # Part 5: gittuf for Developers

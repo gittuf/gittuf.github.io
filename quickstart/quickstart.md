@@ -61,52 +61,10 @@ gittuf. If you're a user that:
   **contributor**.
 - is setting up or managing gittuf on a Git repository, you're a **maintainer**.
 
-If you're a consumer, click the button below. Otherwise, continue to the section
-below on Signing Commits.
-
-[I'm a Consumer](/quickstart/consumer){: .btn .btn-green }
-
-## Signing Commits
-
-Next, change your working directory to be the Git repository you would like to
-use gittuf with so you can configure your signing keys in Git. If you already
-have a GPG, SSH, or [Sigstore] key that you use, configure it as below. If you
-do not already have a key, follow the **Sigstore** instructions.
-
-GPG:
-
-{: .heads-up}
-
-> At the moment, you must have an SSH or Sigstore key to manage gittuf, but you
-> can still use a GPG key to sign your commits.
-
-```
-git config --local commit.gpgsign true
-git config --local tag.gpgsign true
-```
-
-SSH:
-```
-git config --local commit.gpgsign true
-git config --local tag.gpgsign true
-git config --local gpg.format ssh
-git config --local user.signingkey <path to your SSH key>
-```
-
-Sigstore:
-```
-git config --local commit.gpgsign true
-git config --local tag.gpgsign true
-git config --local gpg.format x509
-git config --local gpg.x509.program gitsign
-```
-
-## Continuing Setup
-
 To continue, please select how you're using gittuf:
 
-[I'm a Contributor](/quickstart/contributor){: .btn .btn-blue }
-[I'm a Maintainer](/quickstart/maintainer){: .btn .btn-purple }
+[I'm a Consumer](/quickstart/consumer){: .btn .btn-green }
+[I'm a Contributor or Maintainer](/quickstart/contributor-maintainer){: .btn .btn-purple }
 
 [install from source]: https://
 [Install Homebrew]: https://brew.sh/

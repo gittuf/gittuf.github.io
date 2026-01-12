@@ -2,7 +2,7 @@
 title: Resetting/Uninstalling gittuf
 parent: 4. gittuf for Maintainers
 layout: default
-nav_order: 4
+nav_order: 7
 permalink: /documentation/maintainers/uninstalling
 ---
 
@@ -54,7 +54,12 @@ brew remove gittuf
 ### Linux
 
 If you installed gittuf via a package manager, use that package manager's
-uninstallation command, e.g. `apt remove gittuf`.
+uninstallation command, e.g. `apt remove gittuf`. Otherwise, if you downloaded
+the gittuf binaries directly, you need only delete them.
+
+### FreeBSD
+
+Deleting the downloaded gittuf binaries will uninstall gittuf.
 
 ### Source
 
@@ -63,4 +68,4 @@ platforms, this tends to be `$HOME/go/bin`, with the `gittuf` and
 `git-remote-gittuf` binaries inside.
 
 [submit an issue]: https://github.com/gittuf/gittuf/issues/new
-[reinitialize gittuf's root of trust]: /documentation/maintainers/root#initialization
+[reinitialize gittuf's root of trust]: /documentation/maintainers/root/initialization

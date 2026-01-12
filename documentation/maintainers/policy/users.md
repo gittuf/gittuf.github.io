@@ -50,8 +50,45 @@ gittuf person add-person -k <your signing key> --public-key <the public keys of 
 Repeat this as needed for each person that you want to be able to reference in
 gittuf policy.
 
+## Removing a Person
+
+To remove a person from gittuf policy, use their person ID:
+
+```
+gittuf policy remove-person --person-ID <person identifier>
+```
+
+{: .heads-up}
+
+> The person must not currently be referenced by any rule in the policy,
+> otherwise gittuf will raise an error.
+
+## Updating a Person
+
+Persons currently defined in gittuf policy can be updated:
+
+```
+gittuf policy update-person --person-ID <person identifier> --public-key <the public keys of the person>
+```
+
+{: .heads-up}
+
+> The details specified for the person in this command will **replace** the
+> current data, so make sure to define all existing signing keys that you wish
+> to keep associated with the person.
+
+## Listing Defined Principals
+
+You can also list all the persons currently defined in gittuf metadata:
+
+```
+gittuf policy list-principals
+```
+
+## Next: Managing Rules
+
 When you are done, let's see where the true power of gittuf shines through,
-[writing rules].
+writing rules in [Managing Rules].
 
 [Sigstore]: https://sigstore.dev
-[writing rules]: /documentation/maintainers/policy/rules
+[Managing Rules]: /documentation/maintainers/policy/rules
