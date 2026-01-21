@@ -12,6 +12,9 @@ Verification is perhaps the most important operation in gittuf. After all, none
 of what we've gone over elsewhere in this documentation matters much if gittuf
 can't tell you your repository was compromised.
 
+In gittuf, verifying the repository is done per reference, which can be a branch
+or tag.
+
 {: .warning}
 
 > gittuf **does NOT** verify changes made _before_ it was initialized and a
@@ -20,20 +23,19 @@ can't tell you your repository was compromised.
 > history, but if you had a commit before gittuf was applied that would violate
 > your gittuf policy now, gittuf will not catch it.
 
-Because of this, invoking verification in gittuf is made to be as simple as
-possible. In fact, it's just one command that you will need to use most of the
-time: `gittuf verify-ref`.
+## Verifying a Branch
 
-## Verifying a Reference
-
-gittuf verifies changes per branch. So, if you have two branches that have
-gittuf policies applied to them, you will need to run the verification workflow
-twice, once for each branch. To run verification, invoke the `gittuf verify-ref`
-command:
+Identify the branch that you would like to verify changes to. Then, to run
+verification, invoke the `gittuf verify-ref` command:
 
 ```
 gittuf verify-ref <branch name>
 ```
+
+{: .heads-up}
+
+> If you want to verify multiple branches, you will need to run the verification
+> workflow for each branch.
 
 gittuf will verify that all changes on the branch are valid, starting from the
 first where a policy was defined, to the most recent commit. If nothing is
@@ -44,6 +46,20 @@ printed to the console, then verification was successful.
 > If you're interested in how gittuf verifies changes, or need to see what
 > commit is problematic, run the command with the `--verbose` flag. Be aware
 > that there may be **a lot** of output to sift through!
+
+## Verifying a Tag
+
+Identify the tag that you would like to verify. Then, just as with branches,
+invoke the `gittuf verify-ref` command:
+
+```
+gittuf verify-ref <tag name>
+```
+
+{: .heads-up}
+
+> If you want to verify multiple tags, you will need to run the verification
+> workflow for each tag.
 
 ## Performance Optimization
 

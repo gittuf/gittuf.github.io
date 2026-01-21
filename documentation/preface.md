@@ -51,9 +51,9 @@ Make sure that you read the information in these boxes especially carefully.
 We aim to use standard terminology whenever possible, but there are a few terms
 that may be a bit obscure or have different meaning.
 
-We suggest that you read through the [Trust Architecture] and [Design]
-documentation at least once if you are unsure as to the terminology in this
-documentation.
+If you are a maintainer, we suggest that you read through the [Trust
+Architecture] documentation at least once if you are unsure as to the
+terminology in this documentation.
 
 ## Next: gittuf for Consumers
 

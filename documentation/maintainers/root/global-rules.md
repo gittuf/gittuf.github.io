@@ -2,7 +2,7 @@
 title: Global Rules
 parent: Root of Trust
 layout: default
-nav_order: 1
+nav_order: 3
 permalink: /documentation/maintainers/root/global-rules
 ---
 
@@ -76,6 +76,12 @@ gittuf trust add-global-rule -k <your signing key>
 > A threshold global rule can accept a rule pattern of either `git:` or `file:`,
 > but a block force-pushes global rule can only accept a `git:` rule pattern.
 
+## Next: Signing (and Applying) the Root Metadata
+
+Now, let's see how to apply the changes we've made to the root of trust metdata
+in [Signing the Root Metadata].
+
 [gittuf policy]: /documentation/maintainers/policy
 [gittuf Across Multiple Repositories]: /documentation/maintainers/multirepo
 [policy rules]: /documentation/maintainers/policy/rules
+[Signing the Root Metadata]: /documentation/maintainers/root/signing 

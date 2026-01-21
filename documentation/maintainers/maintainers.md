@@ -19,22 +19,9 @@ you can build and apply your policy.
 
 ## A Note on Signing Keys
 
-gittuf uses cryptographic signatures to bind data (e.g. commits, code approvals,
-etc...) to specific people. Because of this, users need to be signing commits so
-that gittuf can identify that the user making a commit is authorized to do so.
-gittuf currently is able to verify commits signed with GPG, SSH, and [Sigstore]
-keys.
-
-The setup guide for both [Maintainers] and [Contributors] details how to
-configure Git so that commits are signed properly.
-
-{: .heads-up}
-
-> gittuf currently does not support GPG keys for _signing gittuf metadata_. This
-> means that contributors in your repository are OK if they use GPG keys to sign
-> commits, but any time gittuf policy is updated, you must use an SSH or
-> Sigstore key. See [#904] on GitHub.
-
+Before you begin setting up gittuf, please ensure you have read [Signing Keys]
+in Part 3, gittuf for Contributors, for information on how signing keys are
+treated in gittuf.
 
 ## Reading this Guide
 
@@ -51,8 +38,5 @@ this section.
 
 Let's take a quick look at how gittuf handles trust in [Trust Architecture].
 
-[Sigstore]: https://sigstore.dev
-[Maintainers]: /quickstart/maintainer
-[Contributors]: /quickstart/contributor
-[#904]: https://github.com/gittuf/gittuf/issues/904
+[Signing Keys]: /documentation/contributors/signing-keys
 [Trust Architecture]: /documentation/maintainers/design

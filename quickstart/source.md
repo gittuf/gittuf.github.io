@@ -2,7 +2,7 @@
 title: Installation from Source
 parent: Installation and Quickstart
 layout: default
-nav_order: 4
+nav_order: 3
 permalink: /quickstart/source
 ---
 
@@ -16,6 +16,9 @@ gittuf is written in [Go], so you need to [install Go] in order to compile the
 gittuf source code. We suggest installing Go from the official website, as it
 provides the latest version of Go, and gittuf tends to require the latest
 Go version to compile.
+
+After you install Go, ensure that `GOBIN` (the directory where compiled Go
+binaries are installed) is in your `PATH`.
 
 ## Acquiring gittuf Source Code
 
@@ -73,4 +76,4 @@ gittuf.
 
 [Go]: https://go.dev
 [install Go]: https://go.dev/doc/install
-[quickstart instructions]: /quickstart#signing-commits
+[quickstart instructions]: /quickstart#how-do-you-want-to-use-gittuf

@@ -1,9 +1,9 @@
 ---
-title: 6. gittuf GitHub App
-parent: Documentation
+title: The gittuf GitHub App
+parent: Root of Trust
 layout: default
 nav_order: 6
-permalink: /documentation/gittuf-github-app
+permalink: /documentation/maintainers/root/gittuf-github-app
 ---
 
 # Part 6: The gittuf GitHub App
