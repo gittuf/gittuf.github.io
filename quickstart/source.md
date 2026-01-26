@@ -2,7 +2,7 @@
 title: Installation from Source
 parent: Installation and Quickstart
 layout: default
-nav_order: 3
+nav_order: 2
 permalink: /quickstart/source
 ---
 
@@ -76,4 +76,4 @@ gittuf.
 
 [Go]: https://go.dev
 [install Go]: https://go.dev/doc/install
-[quickstart instructions]: /quickstart#how-do-you-want-to-use-gittuf
+[quickstart instructions]: /quickstart#using-gittuf
