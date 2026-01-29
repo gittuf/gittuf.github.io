@@ -50,24 +50,43 @@ gittuf is not (yet) packaged with `pkg` on FreeBSD systems. Download the
 binaries for the [latest gittuf release], and add them to your `$PATH`. Make
 sure to download both `gittuf` and `git-remote-gittuf`.
 
-## How do you want to use gittuf?
+## Using gittuf
 
-The instructions from here on out are different depending on how you need to use
-gittuf. If you're a user that:
+{: .experimental}
 
-- wants to verify a repository against its own gittuf policy, you're a
-  **consumer**.
-- is contributing changes to a Git repository with gittuf enabled, you're a
-  **contributor**.
-- is setting up or managing gittuf on a Git repository, you're a **maintainer**.
+> The `gittuf setup` utility is currently experimental, and is pending inclusion
+> in gittuf with PR [#1124]. In the meantime, we suggest using the [legacy
+> getting started guide].
 
-To continue, please select how you're using gittuf:
+Next, change your working directory to the Git repository you want to use gittuf
+with. If you have not cloned or initialized the repository yet (i.e. `git
+init`), do this now.
 
-[I'm a Consumer](/quickstart/consumer){: .btn .btn-green }
-[I'm a Contributor or Maintainer](/quickstart/contributor-maintainer){: .btn .btn-purple }
+Additionally, if you will be making commits or managing gittuf, ensure that you
+have a [signing key set up in your Git configuration].
+
+Now, run the setup utility:
+
+```
+gittuf setup
+```
+
+The setup utility will guide you through using gittuf on the repository.
+
+## Next Steps
+
+Unless you prefer to poke around, gittuf should stay out of your way. If it
+doesn't, please [open an issue] on our issue tracker so we can investigate. If
+you're a maintainer or a more hands-on user interested in poking around with
+gittuf, see the [gittuf Documentation].
 
 [install from source]: https://
 [Install Homebrew]: https://brew.sh/
 [Install Go]: https://go.dev/doc/install
 [latest gittuf release]: https://github.com/gittuf/gittuf/releases/latest
 [Sigstore]: https://sigstore.dev
+[signing key set up in your Git configuration]: /documentation/contributors/signing-keys
+[open an issue]: https://github.com/gittuf/gittuf/issues/new
+[gittuf Documentation]: /documentation
+[#1124]: https://github.com/gittuf/gittuf/pull/1124
+[legacy getting started guide]: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md#create-keys
