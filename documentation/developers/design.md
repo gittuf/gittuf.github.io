@@ -1,5 +1,5 @@
 ---
-title: gittuf's Design
+title: Goals and Design
 parent: 5. gittuf for Developers
 layout: default
 nav_order: 1
@@ -79,3 +79,5 @@ repositories! gittuf also supports a variety of signing mechanisms such as GPG,
 SSH keys, and [Sigstore] [gitsign].
 
 [design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
+[Sigstore]: https://sigstore.dev
+[gitsign]: https://github.com/sigstore/gitsign
