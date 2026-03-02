@@ -23,6 +23,11 @@ maintainer should read the sections for all roles, e.g. [Part 2: gittuf for
 Consumers], [Part 3: gittuf for Contributors], and [Part 4: gittuf for
 Maintainers].
 
+## Developers
+
+If you're interested in devloping gittuf itself, or using gittuf's API, see
+[Part 5: gittuf for Developers].
+
 ## Next: Preface
 
 To begin, first read through [Part 1: Preface].
@@ -34,3 +39,4 @@ To begin, first read through [Part 1: Preface].
 [Part 2: gittuf for Consumers]: /documentation/consumers
 [Part 3: gittuf for Contributors]: /documentation/contributors
 [Part 4: gittuf for Maintainers]: /documentation/maintainers
+[Part 5: gittuf for Developers]: /documentation/developers
