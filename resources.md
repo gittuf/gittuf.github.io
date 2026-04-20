@@ -7,6 +7,9 @@ permalink: /resources
 
 ## Watch
 
+- [Thinking About Source Code Security in New
+  Ways](https://youtu.be/70LbfYSrK7Q) at Open Source SecurityCon, KubeCon +
+  CloudNativeCon (Europe) 2026
 - [The State of Git Security with SLSA and gittuf](https://youtu.be/qA5WM6_bF0Y)
   at Open Source SecurityCon, KubeCon + CloudNativeCon (North America) 2025
 - [Rethinking Trust in Forge-Based Git Security](https://youtu.be/FA1gEAKJAR0)
