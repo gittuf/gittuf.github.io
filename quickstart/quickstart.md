@@ -55,7 +55,7 @@ sure to download both `gittuf` and `git-remote-gittuf`.
 {: .experimental}
 
 > The `gittuf setup` utility is currently experimental, and is pending inclusion
-> in gittuf with PR [#1124]. In the meantime, we suggest using the [legacy
+> in gittuf with PR [#1193]. In the meantime, we suggest using the [legacy
 > getting started guide].
 
 Next, change your working directory to the Git repository you want to use gittuf
@@ -80,7 +80,7 @@ doesn't, please [open an issue] on our issue tracker so we can investigate. If
 you're a maintainer or a more hands-on user interested in poking around with
 gittuf, see the [gittuf Documentation].
 
-[install from source]: https://
+[install from source]: /quickstart/source
 [Install Homebrew]: https://brew.sh/
 [Install Go]: https://go.dev/doc/install
 [latest gittuf release]: https://github.com/gittuf/gittuf/releases/latest
@@ -88,5 +88,5 @@ gittuf, see the [gittuf Documentation].
 [signing key set up in your Git configuration]: /documentation/contributors/signing-keys
 [open an issue]: https://github.com/gittuf/gittuf/issues/new
 [gittuf Documentation]: /documentation
-[#1124]: https://github.com/gittuf/gittuf/pull/1124
+[#1193]: https://github.com/gittuf/gittuf/pull/1193
 [legacy getting started guide]: https://github.com/gittuf/gittuf/blob/main/docs/get-started.md#create-keys
