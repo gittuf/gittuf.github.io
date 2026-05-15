@@ -67,7 +67,7 @@ By default, gittuf verification starts from the very first change to the
 repository that is recorded in the RSL. For repositories with long histories,
 this means verification may take a long time to complete. As an example, try
 cloning the [official GitHub repository for gittuf], and run `gittuf verify-ref
---verbose main`. Verification will take a bit!
+--verbose refs/heads/main`. Verification will take a bit!
 
 To address this, gittuf includes a caching feature. **Successfully** verified
 changes will be cached, and subsequent verifications will perform much faster.

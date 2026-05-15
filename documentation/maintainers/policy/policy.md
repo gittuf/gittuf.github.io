@@ -34,12 +34,10 @@ specified. In most cases, your repository will only need this rule file.
 ### Delegated Rule Files
 
 If you wish to delegate your policymaking authority to another user, this is
-done using **delegated rule files**. We will take a look at these later. For
-more information, see [Delegated Policies].
-
-
+done using **delegated rule files**. These rule files behave similarly to the
+primary rule file, with the exception that they must be manually specified in
+policy operations.
 
 [Policy Administrator]: /documentation/maintainers/design#policy-administrator
 [Delegated Policy Administrator]: /documentation/maintainers/designs#delegated-policy-administrator
-[Delegated Policies]: /documentation/maintainers/policy/rules#delegated-policies
 [defining users]: /documentation/maintainers/policy/users
