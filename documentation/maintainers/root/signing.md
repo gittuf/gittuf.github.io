@@ -83,6 +83,9 @@ gittuf trust apply origin
 gittuf will make your changes to the root of trust active and enforceable. These
 changes will be reflected in `refs/gittuf/policy`.
 
-## Next: Rule Files
+## Next: The gittuf GitHub App
 
-In the next section, we take a look at how we can 
+Next, let's look at how the [gittuf GitHub App] records approvals and merges so
+developers can keep using GitHub's pull request workflow.
+
+[gittuf GitHub App]: /documentation/maintainers/root/gittuf-github-app
