@@ -45,6 +45,5 @@ verify in the background, unless you:
 Let's first take a look at an important prerequisite for using gittuf, [Signing
 Keys].
 
-[RSL Entries]: /documentation/contributors/metadata
 [gittuf design document]: https://github.com/gittuf/gittuf/blob/main/docs/design-document.md
 [Signing Keys]: /documentation/contributors/signing-keys

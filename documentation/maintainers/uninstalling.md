@@ -67,5 +67,11 @@ gittuf's compiled binaries are stored inside your `$GOHOME`. On Linux/Unix
 platforms, this tends to be `$HOME/go/bin`, with the `gittuf` and
 `git-remote-gittuf` binaries inside.
 
+## Next: gittuf for Developers
+
+That concludes the maintainer documentation. If you're interested in gittuf's
+internals or its API, continue on to [Part 5: gittuf for Developers].
+
+[Part 5: gittuf for Developers]: /documentation/developers
 [submit an issue]: https://github.com/gittuf/gittuf/issues/new
 [reinitialize gittuf's root of trust]: /documentation/maintainers/root/initialization

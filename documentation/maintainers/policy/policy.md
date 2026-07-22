@@ -38,6 +38,12 @@ done using **delegated rule files**. These rule files behave similarly to the
 primary rule file, with the exception that they must be manually specified in
 policy operations.
 
+## Next: Managing Principals
+
+Let's start by defining the users that policy rules will refer to, in
+[Managing Principals].
+
+[Managing Principals]: /documentation/maintainers/policy/users
 [Policy Administrator]: /documentation/maintainers/design#policy-administrator
-[Delegated Policy Administrator]: /documentation/maintainers/designs#delegated-policy-administrator
+[Delegated Policy Administrator]: /documentation/maintainers/design#delegated-policy-administrator
 [defining users]: /documentation/maintainers/policy/users

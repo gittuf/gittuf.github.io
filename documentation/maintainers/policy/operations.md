@@ -83,3 +83,10 @@ gittuf policy update-person --person-ID <person identifier> --public-key <the pu
 > The details specified for the person in this command will **replace** the
 > current data, so make sure to define all existing signing keys that you wish
 > to keep associated with the person.
+
+## Next: gittuf Across Multiple Repositories
+
+Now that we've seen the operations gittuf supports, let's take a look at a
+bigger picture: how [gittuf policies can span multiple repositories].
+
+[gittuf policies can span multiple repositories]: /documentation/maintainers/multirepo

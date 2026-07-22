@@ -2,11 +2,11 @@
 title: Trust Architecture
 parent: 4. gittuf for Maintainers
 layout: default
-nav_order: 2
-permalink: /documentation/maintainers/design/
+nav_order: 1
+permalink: /documentation/maintainers/design
 ---
 
-## Trust Architecture
+# Trust Architecture
 
 gittuf's metadata is based on (but not a copy of) [The Update Framework] (TUF).
 
@@ -23,7 +23,7 @@ lead to catastrophic consequences for the repository.
 To combat this, gittuf uses two features from TUF that serve as a check on any
 single user's power: **thresholding** and **delegations**.
 
-### Thresholding
+## Thresholding
 
 Git security systems often require that _only one_ user of a certain privilege
 level approve an action (e.g. modify branch protection rules). While this is
@@ -40,7 +40,7 @@ multiple users. To perform a privileged action, multiple users must agree (by
 signing metadata) to the action before it is considered valid. This threshold
 can be any arbitrary number up to the number of users with a certain privilege.
 
-### Delegations
+## Delegations
 
 Users' powers are often implicit, i.e. a repository owner will be inherently be
 able to perform actions of any lower privilege. As discussed above, compromise
@@ -122,4 +122,4 @@ Trust].
 [The Update Framework]: https://theupdateframework.io
 [Root of Trust]: /documentation/maintainers/root
 [Policy]: /documentation/maintainers/policy
-[Using gittuf]: /documentation/using
+[Using gittuf]: /documentation/contributors

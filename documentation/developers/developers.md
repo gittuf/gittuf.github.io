@@ -16,4 +16,9 @@ and how we develop and improve them.
 If you would like to use the gittuf API, we suggest you check out the
 documentation hosted on [pkg.go.dev].
 
+## Next: Goals and Design
+
+Let's take a look at the goals that shape gittuf's design in [Goals and Design].
+
+[Goals and Design]: /documentation/developers/design
 [pkg.go.dev]: https://pkg.go.dev/github.com/gittuf/gittuf/experimental/gittuf

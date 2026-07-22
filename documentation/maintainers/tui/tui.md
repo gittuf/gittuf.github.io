@@ -37,9 +37,15 @@ To invoke the gittuf TUI, run:
 gittuf policy tui [-k your signing key]
 ```
 
-Specifying a siging key is only required if you wish to make changes to gittuf
+Specifying a signing key is only required if you wish to make changes to gittuf
 metadata, and is not required for operations that only _view_ gittuf metadata.
 
 TODO: Expand.
 
+## Next: Writing your own gittuf Policy
+
+Now that we've seen how to manage gittuf metadata, let's look at how to
+formulate a policy for your own repository in [Writing your own gittuf Policy].
+
+[Writing your own gittuf Policy]: /documentation/maintainers/policy/own
 [report them]: https://github.com/gittuf/gittuf/issues/new

@@ -2,7 +2,7 @@
 title: Installation from Source
 parent: Installation and Quickstart
 layout: default
-nav_order: 2
+nav_order: 1
 permalink: /quickstart/source
 ---
 

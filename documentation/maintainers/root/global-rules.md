@@ -78,7 +78,7 @@ gittuf trust add-global-rule -k <your signing key>
 
 ## Next: Signing (and Applying) the Root Metadata
 
-Now, let's see how to apply the changes we've made to the root of trust metdata
+Now, let's see how to apply the changes we've made to the root of trust metadata
 in [Signing the Root Metadata].
 
 [gittuf policy]: /documentation/maintainers/policy

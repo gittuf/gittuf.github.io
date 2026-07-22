@@ -2,7 +2,7 @@
 title: Managing Rules
 parent: Policy
 layout: default
-nav_order: 2
+nav_order: 3
 permalink: /documentation/maintainers/policy/rules
 ---
 
@@ -88,9 +88,9 @@ gittuf policy add-rule -k <your signing key>
                        --threshold 2
 ```
 
-## Next: gittuf Across Multiple Repositories
+## Next: Supported Operations
 
-Now that we've seen how gittuf policies work, let's take a look at a bigger
-picture: how [gittuf policies can span multiple repositories].
+Now that we've seen how rules are written, let's look at the full set of
+[operations gittuf supports] for managing policy.
 
-[gittuf policies can span multiple repositories]: /documentation/maintainers/multirepo
+[operations gittuf supports]: /documentation/maintainers/policy/operations

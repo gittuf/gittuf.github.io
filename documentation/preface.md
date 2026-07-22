@@ -60,5 +60,4 @@ terminology in this documentation.
 Now, let's start with how to use gittuf in [Part 2: gittuf for Consumers].
 
 [Trust Architecture]: /documentation/maintainers/design
-[Design]: /goals
 [Part 2: gittuf for Consumers]: /documentation/consumers
