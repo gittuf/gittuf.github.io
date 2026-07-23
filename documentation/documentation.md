@@ -7,8 +7,8 @@ permalink: /documentation
 
 # gittuf Documentation
 
-gittuf's documentation is structured to address the needs of three categories of
-users who need to use gittuf.
+gittuf's documentation is structured to address the needs of the different
+categories of users who need to use gittuf.
 
 - If you just want to verify a repository against its own gittuf policy, you're
   a **consumer**.
@@ -25,7 +25,7 @@ Maintainers].
 
 ## Developers
 
-If you're interested in devloping gittuf itself, or using gittuf's API, see
+If you're interested in developing gittuf itself, or using gittuf's API, see
 [Part 5: gittuf for Developers].
 
 ## Next: Preface

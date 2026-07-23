@@ -2,11 +2,11 @@
 title: The gittuf GitHub App
 parent: Root of Trust
 layout: default
-nav_order: 6
+nav_order: 5
 permalink: /documentation/maintainers/root/gittuf-github-app
 ---
 
-# Part 6: The gittuf GitHub App
+# The gittuf GitHub App
 
 The [gittuf GitHub app](https://github.com/gittuf/github-app) can be installed
 on a repository to observe pull request approvals and merges. The app records

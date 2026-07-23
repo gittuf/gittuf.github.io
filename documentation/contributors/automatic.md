@@ -84,7 +84,6 @@ Next, let's take a look at how pushes are recorded manually, without
 `git-remote-gittuf` with [Manual Push Recording].
 
 
-[RSL Entries]: /documentation/contributors/metadata
 [Verify that the repository is compliant with gittuf policy]: /documentation/consumers/verifying
 [Approving Changes]: /documentation/contributors/approving-changes
 [Part 4: gittuf for Maintainers]: /documentation/maintainers

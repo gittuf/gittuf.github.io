@@ -44,6 +44,12 @@ demo], which shows how a gittuf policy can be applied from initializing gittuf,
 to enforcing it and verifying changes. There is also a [multi-repository demo],
 which showcases the multi-repository features discussed earlier.
 
+## Next: Resetting/Uninstalling gittuf
+
+Finally, let's look at how to start over with gittuf, or stop using it, in
+[Resetting/Uninstalling gittuf].
+
+[Resetting/Uninstalling gittuf]: /documentation/maintainers/uninstalling
 [demo website]: https://github.com/gittuf/demo
 [basic demo]: https://github.com/gittuf/demo/blob/main/demo.md
 [multi-repository demo]: https://github.com/gittuf/demo/blob/main/demo-multi-repo.md

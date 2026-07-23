@@ -47,7 +47,7 @@ controller metadata.
 ## Verifying Changes
 
 gittuf verifies the changes made to your repository with the controller's global
-rules whenever gittuf verification (e.g. `gittuf verify-ref) is run.
+rules whenever gittuf verification (e.g. `gittuf verify-ref`) is run.
 
 {: .warning}
 
@@ -55,6 +55,12 @@ rules whenever gittuf verification (e.g. `gittuf verify-ref) is run.
 > to fail verification. Make sure to inspect the rules that will be applied from
 > the controller before adding it.
 
+## Next: The gittuf TUI
+
+Next, let's look at an alternative way to manage gittuf metadata without
+commands, using [The gittuf TUI].
+
+[The gittuf TUI]: /documentation/maintainers/tui
 [global rules]: /documentation/maintainers/root/global-rules
 [Controller Repositories]: /documentation/maintainers/multirepo/controller
 [Verifying Changes]: #verifying-changes

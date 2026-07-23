@@ -5,6 +5,8 @@ nav_order: 4
 permalink: /contribute
 ---
 
+# Contribute to gittuf
+
 There are a number of ways to contribute to gittuf's development. Please note
 that contributors to gittuf are expected to abide by the [code of conduct].
 

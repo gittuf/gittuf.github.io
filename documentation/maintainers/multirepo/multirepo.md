@@ -83,6 +83,11 @@ indeed have:
 gittuf performs this automatically and, upon completion, reports the
 repositories that are in compliance, and those that are not.
 
+## Next: Controller Repositories
+
+Let's start by looking at the repository that sets policy for the others, in
+[Controller Repositories].
+
 [Global Rules]: /documentation/maintainers/root/global-rules
 [Controller Repositories]: /documentation/maintainers/multirepo/controller
 [Network Repositories]: /documentation/maintainers/multirepo/network

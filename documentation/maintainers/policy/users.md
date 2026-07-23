@@ -2,7 +2,7 @@
 title: Managing Principals
 parent: Policy
 layout: default
-nav_order: 1
+nav_order: 2
 permalink: /documentation/maintainers/policy/users
 ---
 

@@ -10,7 +10,7 @@ permalink: /documentation/maintainers/root
 
 The root of trust is the set of users ultimately trusted in gittuf. In addition
 to encoding the users that compose the root of trust, the root metadata contains
-information on the repository, as well as [global rules](#global-rules).
+information on the repository, as well as [global rules].
 
 ## Configuration
 
@@ -33,7 +33,7 @@ you are changing:
 
 ## Next: Initializing the Root of Trust
 
-Let's start by initializating gittuf's root of trust in [Initialization].
+Let's start by initializing gittuf's root of trust in [Initialization].
 
 [global rules]: /documentation/maintainers/root/global-rules
 [reset gittuf]: /documentation/maintainers/uninstalling#resetting-gittuf

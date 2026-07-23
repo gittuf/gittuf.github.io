@@ -25,9 +25,9 @@ treated in gittuf.
 
 ## Reading this Guide
 
-The administration documentation for gittuf is divided into five parts, with
-each section taking you through how each part of gittuf metadata is initialized
-and managed.
+The administration documentation for gittuf is divided into several sections,
+each taking you through how a part of gittuf metadata is initialized and
+managed.
 
 While you need not read it in order if you are only interested in a specific
 part, we suggest reading through [Trust Architecture] first so you understand

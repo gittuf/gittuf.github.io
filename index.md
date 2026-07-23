@@ -91,7 +91,6 @@ researchers, and has been [peer-reviewed]. To cite gittuf, use:
 
 [Open Source Security Foundation (OpenSSF)]: https://openssf.org/
 [Supply Chain Integrity Working Group]: https://github.com/ossf/wg-supply-chain-integrity
-[get started guide]: /documentation/get-started/getting-started
 [roadmap]: https://github.com/gittuf/gittuf/blob/main/docs/roadmap.md
 [contributing guide]: https://github.com/gittuf/gittuf/blob/main/CONTRIBUTING.md
 [peer-reviewed]: https://www.ndss-symposium.org/wp-content/uploads/2025-1008-paper.pdf

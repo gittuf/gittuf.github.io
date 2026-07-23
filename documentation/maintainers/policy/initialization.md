@@ -3,7 +3,7 @@ title: Initialization
 parent: Policy
 layout: default
 nav_order: 1
-permalink: /documentation/maintainers/policy/initalization
+permalink: /documentation/maintainers/policy/initialization
 has_toc: no
 ---
 
