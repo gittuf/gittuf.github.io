@@ -28,6 +28,10 @@ permalink: /resources
 - [Rethinking Trust in Forge-Based Git
   Security](https://www.ndss-symposium.org/wp-content/uploads/2025-1008-paper.pdf),
   a peer-reviewed paper on gittuf published at NDSS Symposium 2025
+- [SourceFabric: Consistent and Scalable Security Policies for Git
+  Repositories](https://ssl.engineering.nyu.edu/papers/yelgundhalli_sourcefabric_eurosp_2026.pdf),
+  a peer-reviewed paper on extending gittuf policies across multiple
+  repositories published at EuroS&P 2026
 - [Securing Git Repositories with gittuf](https://lwn.net/Articles/972467/), an
   article about gittuf in LWN.net
 - [On Omitting Commits and Committing Omissions: Preventing Git Metadata
