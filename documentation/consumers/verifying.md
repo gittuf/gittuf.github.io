@@ -63,46 +63,17 @@ gittuf verify-ref <tag name>
 
 ## Performance Optimization
 
-By default, gittuf verification starts from the very first change to the
-repository that is recorded in the RSL. For repositories with long histories,
-this means verification may take a long time to complete. As an example, try
-cloning the [official GitHub repository for gittuf], and run `gittuf verify-ref
---verbose refs/heads/main`. Verification will take a bit!
+{: .experimental}
 
-To address this, gittuf includes a caching feature. **Successfully** verified
-changes will be cached, and subsequent verifications will perform much faster.
-If verification fails for a branch, the cache will only contain the changes
-which were successfully verified.
+gittuf currently uses the Git binary for operations, which incurs a performance
+penalty due to process spawning overhead. Starting with `v0.17.0`, gittuf ships
+with an experimental `go-git` backend that significantly improves performance.
 
-{: .info}
+Since it is still in testing, you must manually opt in to using this backend,
+which can be done by setting the environment variables `GITTUF_DEV=1` and
+`GITTUF_STORER=go-git`.
 
-> The cache is local to your machine, and is not uploaded to the remote. You
-> must activate the cache manually on each instance of a gittuf repository you
-> have on multiple machines.
-
-
-### Enabling the Cache
-
-When in the directory of the repository, run `gittuf cache init`:
-
-```
-gittuf cache init
-```
-
-gittuf will begin caching the results of verification any time verification is
-invoked.
-
-### Disabling the Cache
-
-When in the directory of the repository, run `gittuf cache delete`:
-
-```
-gittuf cache delete
-```
-
-gittuf will erase the cache and verification will revert to its behavior before
-the cache was enabled. To reenable the cache, simply run the `init` command
-again.
+We encourage you to use this backend and report any issues to us on GitHub.
 
 ## Next: gittuf and SLSA
 
