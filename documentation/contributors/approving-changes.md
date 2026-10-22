@@ -54,6 +54,17 @@ Now, your changes will appear in the `main` branch, and will successfully
 verify. If additional users are required to approve changes, they may do so by
 running the `gittuf attest authorize` command before you merge your changes in.
 
+## Using the RSL to Approve Changes
+
+Recording changes in the RSL is another way that changes may be approved, though
+this is subject to the restriction that the approval using the RSL must be the
+last approval required.
+
+For example, if two out of three approvals are recorded for merging a change to
+`main`, a user trusted for the `main` branch may go ahead and merge the change,
+so as long as they record the update to the `main` branch with one of their keys
+authorized to make changes to `main`.
+
 ## Next: Administering gittuf
 
 We've now seen how contributors can use gittuf on a day-to-day basis. Let's now
