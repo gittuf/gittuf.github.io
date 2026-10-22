@@ -8,6 +8,11 @@ permalink: /documentation/maintainers/multirepo
 
 # gittuf Across Multiple Repositories
 
+{: .experimental}
+
+> Support for multi-repository features in gittuf is considered experimental.
+> Use these features with caution for now.
+
 The original design of gittuf only allowed applying gittuf controls over a
 single Git repository. While this is sufficient for many repositories,
 organizations often have multiple (and sometimes, thousands!) of Git
