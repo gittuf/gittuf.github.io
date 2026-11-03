@@ -65,6 +65,29 @@ For example, if two out of three approvals are recorded for merging a change to
 so as long as they record the update to the `main` branch with one of their keys
 authorized to make changes to `main`.
 
+## Understanding Signatures: Commits vs. RSL Entries
+
+gittuf makes use of two distinct types of cryptographic signatures depending on
+the rule in the policy:
+
+- **Git Commit Signatures (`git commit -S`):** Cryptographically sign the Git
+  commit object itself using supported signing mechanisms (such as SSH, GPG, or
+  Sigstore). These signatures are evaluated by **file protection rules** to
+  verify who authored or modified specific files or paths.
+- **RSL Entry Signatures (`gittuf rsl record`):** Created using your
+  configured Git signing key (`user.signingkey`). These signatures are
+  evaluated by **branch protection rules** to verify who authorized pushing to
+  or updating a reference (such as `refs/heads/main`).
+
+Currently, gittuf also evaluates tag signatures, but this will change with
+(PR #1699)[https://github.com/gittuf/gittuf/pull/1699].
+
+{: .info}
+
+> If a repository only defines branch protection rules (with no file protection
+> rules), an unsigned Git commit will still pass `gittuf verify-ref` as long as
+> the RSL entry is signed by an authorized principal.
+
 ## Next: Administering gittuf
 
 We've now seen how contributors can use gittuf on a day-to-day basis. Let's now
