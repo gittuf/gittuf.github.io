@@ -25,7 +25,8 @@ gittuf policy). The policy requires that at least two users approve any change
 to the `main` branch.
 
 If you are authorized to make changes to the main branch, your signature on the
-merge commit merging your changes would count for one signature.
+RSL entry recording the merge commit merging your changes would count for one
+signature.
 
 However, you'd still need one more user to sign off with their approval. To do
 this, after you have pushed your changes to the `feature` branch, the other user
@@ -62,8 +63,8 @@ last approval required.
 
 For example, if two out of three approvals are recorded for merging a change to
 `main`, a user trusted for the `main` branch may go ahead and merge the change,
-so as long as they record the update to the `main` branch with one of their keys
-authorized to make changes to `main`.
+so as long as they record the update to the `main` branch in the RSL with one of
+their keys authorized to make changes to `main`.
 
 ## Understanding Signatures: Commits vs. RSL Entries
 
