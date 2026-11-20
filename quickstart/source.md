@@ -26,8 +26,13 @@ The official gittuf source code is on GitHub, and can be cloned using `git
 clone`:
 
 ```
+# HTTPS
+git clone https://github.com/gittuf/gittuf
+git clone https://github.com/gittuf/git-remote-gittuf
+
+# SSH
 git clone git@github.com:gittuf/gittuf
-cd gittuf
+git clone git@github.com:gittuf/git-remote-gittuf
 ```
 
 ## Building gittuf
@@ -47,6 +52,8 @@ make just-install
 
 gittuf will be installed to your `$GOBIN`, which is often `$HOME/go/bin` on
 Linux/Unix platforms.
+
+The same commands may be used to build and install `git-remote-gittuf`.
 
 ## Verifying the gittuf Repository with gittuf
 

@@ -41,14 +41,15 @@ commands:
 
 ```
 go install github.com/gittuf/gittuf@latest
-go install github.com/gittuf/gittuf/internal/git-remote-gittuf@latest
+go install github.com/gittuf/git-remote-gittuf@latest
 ```
 
 ### FreeBSD
 
 gittuf is not (yet) packaged with `pkg` on FreeBSD systems. Download the
-binaries for the [latest gittuf release], and add them to your `$PATH`. Make
-sure to download both `gittuf` and `git-remote-gittuf`.
+binaries for the [latest gittuf release], as well as the
+[latest git-remote-gittuf release] and add them to your `$PATH`. Make sure to
+download both `gittuf` and `git-remote-gittuf`.
 
 ## Using gittuf
 
@@ -84,7 +85,7 @@ gittuf, see the [gittuf Documentation].
 [Install Homebrew]: https://brew.sh/
 [Install Go]: https://go.dev/doc/install
 [latest gittuf release]: https://github.com/gittuf/gittuf/releases/latest
-[Sigstore]: https://sigstore.dev
+[latest git-remote-gittuf release]: https://github.com/gittuf/git-remote-gittuf/releases/latest
 [signing key set up in your Git configuration]: /documentation/contributors/signing-keys
 [open an issue]: https://github.com/gittuf/gittuf/issues/new
 [gittuf Documentation]: /documentation
